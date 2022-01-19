@@ -1,0 +1,16 @@
+{
+  "name": "avarda/markup-smarthsip-compatible",
+  "description": "Compatibility module for Markup Smartship to Avarda Checkout3",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Codaone\\Avarda\\": ""
+    }
+  }
+}
